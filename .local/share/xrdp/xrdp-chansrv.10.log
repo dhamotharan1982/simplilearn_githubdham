@@ -43,3 +43,5 @@
 [20230819-06:13:43] [INFO ] Socket 12: AF_UNIX connection received
 [20230819-06:15:49] [INFO ] channel_thread_loop: trans_check_wait_objs error resetting
 [20230819-06:16:12] [INFO ] Socket 12: AF_UNIX connection received
+[20230819-08:28:39] [INFO ] channel_thread_loop: trans_check_wait_objs error resetting
+[20230819-08:28:45] [INFO ] Socket 12: AF_UNIX connection received

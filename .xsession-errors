@@ -408,3 +408,5 @@ libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_na
 [9410:9410:0819/063238.561768:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
 
 (xfce4-panel:2078): xfce4-panel-CRITICAL **: 06:35:55.915: panel-window.c:3086 (panel_window_thaw_autohide): expression 'window->autohide_block > 0' failed.
+
+** (xiccd:2147): WARNING **: 08:28:45.871: EDID is empty

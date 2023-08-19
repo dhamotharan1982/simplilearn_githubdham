@@ -909,3 +909,65 @@ X Protocol Version 11, Revision 0
 [ 10471.839] rdpkeybBell:
 [ 10471.982] rdpkeybBell:
 [ 10471.982] rdpkeybBell:
+[ 15568.579] rdpkeybBell:
+[ 15568.579] rdpkeybBell:
+[ 15568.867] rdpkeybBell:
+[ 15568.867] rdpkeybBell:
+[ 15569.134] rdpkeybBell:
+[ 15569.134] rdpkeybBell:
+[ 16361.466] rdpkeybChangeKeyboardControl:
+[ 16361.466] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 16361.467] rdpkeybChangeKeyboardControl:
+[ 16361.467] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 16364.084] rdpkeybChangeKeyboardControl:
+[ 16364.085] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 16364.085] rdpkeybChangeKeyboardControl:
+[ 16364.085] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 17205.853] rdpClientConRecv: g_sck_recv failed(returned 0)
+[ 17205.853] rdpClientConRecvMsg: error
+[ 17205.853] rdpClientConCheck: rdpClientConGotData failed
+[ 17205.853] rdpClientConDisconnect:
+[ 17205.853] rdpRemoveClientConFromDev: removing clientCon 0x556798d1b4a0
+[ 17211.860] rdpClientConGotConnection:
+[ 17211.860] rdpClientConGotConnection: g_sck_accept ok new_sck 7
+[ 17211.860] rdpClientConGetConnection: idle_disconnect_timeout set to non-positive value, idle timer turned off
+[ 17211.860] rdpAddClientConToDev: adding first clientCon 0x556798d1b4a0
+[ 17211.862] rdpClientConProcessMsgVersion: version 0 0 0 1
+[ 17211.862] rdpClientConProcessScreenSizeMsg: set width 1364 height 611 bpp 16
+[ 17211.862] rdpClientConProcessScreenSizeMsg: shmemid 98319 shmemptr 0x7fdbe4c1f000
+[ 17211.862] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1364 cy 611
+[ 17211.864] KbdSync: toggling num lock
+[ 17211.864] rdpkeybChangeKeyboardControl:
+[ 17211.864] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 17211.865] rdpkeybChangeKeyboardControl:
+[ 17211.865] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 17211.866] rdpClientConProcessMsgClientInfo:
+[ 17211.866]   got client info bytes 5752
+[ 17211.866]   jpeg support 0
+[ 17211.867]   offscreen support 0
+[ 17211.867]   offscreen size 0
+[ 17211.867]   offscreen entries 0
+[ 17211.867]   client supports glyph cache but server disabled
+[ 17211.867]   client can not do offscreen to offscreen blits
+[ 17211.867]   client can do new(color) cursor
+[ 17211.867]   client can not do multimon
+[ 17211.867] rdpRRSetRdpOutputs: numCrtcs 1 numOutputs 1 monitorCount 0
+[ 17211.867] rdpRRSetRdpOutputs: update output 0 left 0 top 0 width 1364 height 611
+[ 17211.867] rdpRRUpdateOutput:
+[ 17211.867] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[ 17211.867] rdpkeybChangeKeyboardControl:
+[ 17211.867] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 17211.876] rdpkeybChangeKeyboardControl:
+[ 17211.876] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 17211.883] rdpRRGetInfo:
+[ 17211.967] rdpInDeferredRepeatCallback:
+[ 17211.967] rdpkeybChangeKeyboardControl:
+[ 17211.967] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 17211.976] rdpInDeferredRepeatCallback:
+[ 17211.976] rdpkeybChangeKeyboardControl:
+[ 17211.976] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 17305.528] KbdSync: toggling num lock
+[ 17305.528] rdpkeybChangeKeyboardControl:
+[ 17305.528] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 17305.529] rdpkeybChangeKeyboardControl:
+[ 17305.529] rdpkeybChangeKeyboardControl: autoRepeat off
